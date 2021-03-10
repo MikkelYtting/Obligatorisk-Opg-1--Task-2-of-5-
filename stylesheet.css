@@ -1,0 +1,37 @@
+.brødtekst {font-size: larger}
+.overskrift {color: blue; font-size:xx-large}
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "V1 M1 H1"
+      "V2 M2 H2"
+      "V3 M3 H3";
+  }
+  
+  .V1 { grid-area: V1; }
+  
+  .H1 { grid-area: H1; }
+  
+  .M1 { grid-area: M1; }
+  
+  .V2 { grid-area: V2; }
+  
+  .M2 { grid-area: M2; }
+  
+  .H2 { grid-area: H2; }
+  
+  .V3 { grid-area: V3; }
+  
+  .M3 { grid-area: M3; }
+  
+  .H3 { grid-area: H3; }
+
+  
